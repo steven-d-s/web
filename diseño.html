@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Mundo Digital</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 3rem;
+    }
+
+    a.card {
+      text-decoration: none;
+      color: inherit;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    a.card:hover {
+      transform: translateY(-10px);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .card h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    .card p {
+      color: #ddd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌟 UN Mundo Digital</h1>
+    <p>Explora, crea, y comparte tu pasión con el mundo</p>
+  </header>
+
+  <main>
+    <a href="file:///D:/DISE%C3%91O%20wed/dise%C3%B1o2.html" class="card">
+      <h2>🎨 RECURSOS</h2>
+      <p>Diseña experiencias visuales únicas con un estilo moderno y accesible.</p>
+    </a>
+    <a href="file:///D:/DISE%C3%91O%20wed/dise%C3%B1o1.html" class="card">
+      <h2>💻 MATERIA</h2>
+      <p>Explora lo último en desarrollo web, inteligencia artificial y automatización.</p>
+    </a>
+    <a href="file:///D:/DISE%C3%91O%20wed/videodise%C3%B1o.html" class="card">
+      <h2>🌐 VIDEO</h2>
+      <p>Comparte tu trabajo, ideas y pasiones con una comunidad global.</p>
+    </a>
+  </main>
+
+  <footer>
+     @"tecnicos al servio de la comunidad"/ "13 de abril"💻
+  </footer>
+
+</body>
+</html>

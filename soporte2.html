@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Mundo Digital</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+      color: #ffffff;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      background: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(6px);
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #eee;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 1rem;
+    }
+
+    a.card {
+      text-decoration: none;
+      color: inherit;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      width: 300px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    a.card:hover {
+      transform: translateY(-10px) scale(1.03);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .card h2 {
+      margin-bottom: 1rem;
+      font-size: 1.7rem;
+      color: #fff;
+      text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+
+    .card p {
+      color: #ccc;
+      font-size: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.2);
+      font-size: 0.9rem;
+      color: #ddd;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Mi Mundo Digital</h1>
+    <p>Explora, crea y comparte tu conocimiento con estilo</p>
+  </header>
+
+  <main>
+    <a href="file:///D:/DISE%C3%91O%20wed/recuros2s.html" class="card">
+      <h2>🎨 RECURSOS</h2>
+      <p>Accede a herramientas y plantillas para tus proyectos digitales.</p>
+    </a>
+    <a href="file:///D:/DISE%C3%91O%20wed/soporte1.html" class="card">
+      <h2>💻 MATERIA</h2>
+      <p>Aprende sobre tecnología, programación y diseño moderno.</p>
+    </a>
+    <a href="file:///D:/DISE%C3%91O%20wed/videos2so.html" class="card">
+      <h2>📽 VIDEO</h2>
+      <p>Disfruta contenido audiovisual educativo y creativo.</p>
+    </a>
+  </main>
+
+  <footer>
+    © Técnicos al servicio de la comunidad - "13 de abril" 💻
+  </footer>
+
+</body>
+</html>
